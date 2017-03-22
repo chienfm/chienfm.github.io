@@ -9,7 +9,7 @@ comments: false
 modified: 2016-02-01
 ---
 
-This page is in updating. My domain [chienfm.com](https://chienfm.com) will be added later.
+This page is on updating. My domain [chienfm.com](https://chienfm.com) will be added later.
 
 HPSTR theme based.
 ## HPSTR Features:
