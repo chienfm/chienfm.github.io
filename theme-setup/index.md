@@ -10,7 +10,8 @@ share: true
 modified: 2016-06-01T15:14:43-04:00
 ---
 
-$$\alpha = 1 $$ (1)
+$\alpha = 1 $(1)
+
 General notes and suggestions for customizing **HPSTR**.
 
 HPSTR now requires [Jekyll](http://jekyllrb.com/) 3.0. Make sure to run `bundle update` if you aren't on the latest version to update all gem dependencies.
