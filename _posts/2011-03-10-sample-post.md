@@ -26,9 +26,10 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 ### Body text
 
-$$\alpha = \beta$$ (1)
+This is a test for $\KaTeX$, $a^2 + b^2 = c^2$, if you want it in display style, try: $$\text{e} = \lim_{n\to\infty} \left(1+\frac{1}{n}\right)^n,$$ and
+\\[ \pi = \lim_{k=0}^\infty \, \frac{1}{16^k} \left( \frac{4}{8k+1} - \frac{2}{8k+4} - \frac{1}{8k+5} - \frac{1}{8k+6} \right).\\]
 
-$\alpha = 1$ (2)
+
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
 ![Smithsonian Image]({{ site.url }}/images/3953273590_704e3899d5_m.jpg)
