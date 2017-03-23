@@ -60,7 +60,19 @@
 </div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}	        
-{% include katex_render.html %}
+<script>
+    renderMathInElement(
+        document.getElementByClassName("entry-content"),
+        {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false}
+            ]
+        }
+    );
+ </script>
 
 </body>
 </html>
