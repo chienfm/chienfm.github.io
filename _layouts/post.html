@@ -61,18 +61,18 @@
 
 {% include scripts.html %}	        
 <script>
-    renderMathInElement(
-        document.getElementById("main"),
-        {
-            delimiters: [
-                {left: "$$", right: "$$", display: true},
-                {left: "\\[", right: "\\]", display: true},
-                {left: "$", right: "$", display: true},
-                {left: "\\(", right: "\\)", display: true}
-            ]
-        }
-    );
- </script>
+  renderMathInElement(
+    document.getElementById("main"),
+    {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+        {left: "$", right: "$", display: false},
+        {left: "\\(", right: "\\)", display: false}
+      ]
+    }
+  );
+</script>
 
 </body>
 </html>
