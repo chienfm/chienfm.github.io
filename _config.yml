@@ -38,7 +38,7 @@ bing_verify:
 timezone:    America/New_York
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
-markdown:    kramdown
+markdown:    maruku
 gems:
   - jekyll-sitemap
   - jekyll-paginate
