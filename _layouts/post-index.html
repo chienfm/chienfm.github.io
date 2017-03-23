@@ -38,6 +38,18 @@
 </div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}          
-{% include katex_render.html %}
+<script>
+    renderMathInElement(
+        document.getElementById("main"),
+        {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false}
+            ]
+        }
+    );
+ </script>
 </body>
 </html>
