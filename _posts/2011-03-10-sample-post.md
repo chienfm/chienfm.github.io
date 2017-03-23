@@ -28,6 +28,8 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 $$\alpha = \beta$$ (1)
 
+<script type="math/tex; mode=display">P(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}</script> (2)
+
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
