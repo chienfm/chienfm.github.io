@@ -27,20 +27,7 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 ### Body text
 
-$$\alpha = \beta$$
-
-Test a display math:
-$$
-   |\psi_1\rangle = a|0\rangle + b|1\rangle
-$$
-Is it O.K.?
-
-Test a display math with equation number:
-\begin{equation}
-   |\psi_1\rangle = a|0\rangle + b|1\rangle
-\end{equation}
-Is it O.K.?
-
+$$\alpha = \beta$$ (1)
 
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
