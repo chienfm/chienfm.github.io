@@ -5,9 +5,9 @@ description: "Katex for Jekyll"
 modified: 2017-03-24
 tags: [Katex, Jekyll]
 image:
-  feature: abstract-3.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  feature: 
+  credit: 
+  creditlink: 
 ---
 
 ## Reason
@@ -53,20 +53,24 @@ Note that, `"main"` is the name of the **main content** in my page. You can refe
 Now we can test some equations.
 1. A simple 
 ```code
-$$\alpha = \beta$$
+\\[\alpha = \beta\\]
 ```
-$$\alpha = \beta$$
+\\[\alpha = \beta\\]
 
 Inline: $\alpha = \beta$
 
 Test a display math:
-$$
+\\[
    |\psi_1\rangle = a|0\rangle + b|1\rangle
-$$
+\\]
 Is it O.K.?
 
 Another Test:
 
-$$P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{ - \frac{(x - \mu)^2}{2\sigma ^2}}$$
+\\[
+\begin{equation}
+P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{ - \frac{(x - \mu)^2}{2\sigma ^2}}
+\end{equation}
+\\]
 
 Phew! Hope this trick could help you!
