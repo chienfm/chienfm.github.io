@@ -22,7 +22,7 @@ have no experence in JS or CSS like me.
 1. First, you should download the [Katex source](https://github.com/khan/katex/releases) and push it intp your root directory of your page. Say, we call the folder is **katex**.
 2. Open your `head.html` in your **_include** folder and add the link to katex source. You can add it directly to your `page.html` or `post.html`, depending on your purpose. Here, I call auto render since I want Katex scan all my post and render rather than put **equation** in a block. Mean, you just type `$ equation $` as normal. 
 
-```JavaScript
+```javascript
 <link rel="stylesheet" href="{{ site.url }}/katex/katex.min.css">
 <script src="{{ site.url }}/katex/katex.min.js"></script>
 <script src="{{ site.url }}/katex/contrib/auto-render.min.js"></script>
@@ -30,7 +30,7 @@ have no experence in JS or CSS like me.
 
 3. Now, in **_layout** folder, you insert the following code in the lastline before tag `<\body>` of `post.html` or `page.htm`, or whatever page you want to render math equation.
 
-```JavaScript
+```javascript
 <script>
   renderMathInElement(
     document.getElementById("main"),
