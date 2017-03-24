@@ -1,5 +1,13 @@
 ---
 layout: post
+title: Sample Post
+description: "Katex for Jekyll"
+modified: 2017-03-24
+tags: [Katex, Jekyll]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 
 # Reason
@@ -13,13 +21,16 @@ have no experence in JS or CSS like me.
 # Configure Katex in Github Page:
 1. First, you should download the [Katex source](https://github.com/khan/katex/releases) and push it intp your root directory of your page. Say, we call the folder is **katex**.
 2. Open your `head.html` in your **_include** folder and add the link to katex source. You can add it directly to your `page.html` or `post.html`, depending on your purpose. Here, I call auto render since I want Katex scan all my post and render rather than put **equation** in a block. Mean, you just type `$ equation $` as normal. 
-```JavaScript
+
+```
 <link rel="stylesheet" href="{{ site.url }}/katex/katex.min.css">
 <script src="{{ site.url }}/katex/katex.min.js"></script>
 <script src="{{ site.url }}/katex/contrib/auto-render.min.js"></script>
 ```
+
 3. Now, in **_layout** folder, you insert the following code in the lastline before tag `<\body>` of `post.html` or `page.htm`, or whatever page you want to render math equation.
-```JavaScript
+
+```
 <script>
   renderMathInElement(
     document.getElementById("main"),
@@ -34,6 +45,7 @@ have no experence in JS or CSS like me.
   );
 </script>
 ```
+
 Note that, `"main"` is the name of the **main content** in my page. You can refer [this page](https://github.com/Khan/KaTeX/tree/master/contrib/auto-render) for detail. **Done**
 # Let's test some math equations
 Now we can test some equations.
