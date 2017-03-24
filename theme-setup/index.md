@@ -16,7 +16,7 @@ This is a second equation: $$\alpha = \beta$$
 
 This is a third equation: \\[\alpha = \beta\\]
 
-This is fourth equation: \[\alpha = \beta\]
+This is fourth equation: \\(\alpha = \beta\\)
 
 General notes and suggestions for customizing **HPSTR**.
 
