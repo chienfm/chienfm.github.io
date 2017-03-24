@@ -1,0 +1,62 @@
+---
+layout: post
+title: How to configure Katex for Jekyll
+description: "This is simple way to configure you github page with Katex, a fast math formular display"
+modified: 2017-03-29
+tags: [Katex Jekyll Math]
+
+---
+# Reason
+
+## 2nd level
+
+- Let's test some math equations
+
+$$\alpha = \beta$$
+
+- Test code editor
+```python
+def FunctionA(x):
+    print(x)
+```
+
+`
+somethings
+`
+- This is a new line `and` [content](http://chienfm.com) some **math** and *symbol*
+- Chung ta co the thay rang $\frac{dx^{2}}{dy^{2}} = \frac{dy}{dz}$
+
+$$\alpha = \beta$$
+$$\alpha = \gamma$$
+
+```flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+Test a display math:
+$$
+   |\psi_1\rangle = a|0\rangle + b|1\rangle
+$$
+Is it O.K.?
+
+Let's test some inline math $x$, $y$, $x_1$, $y_1$.
+
+Now a inline math with special character: $|\psi\rangle$, $x'$, $x^*$.
+
+Test a display math:
+$$
+   |\psi_1\rangle = a|0\rangle + b|1\rangle
+$$ 
+Is it O.K.?
+
+Test a display math with equation number:
+
+
+Is it O.K.?
