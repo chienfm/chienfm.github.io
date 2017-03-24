@@ -10,9 +10,13 @@ share: true
 modified: 2016-06-01T15:14:43-04:00
 ---
 
-This is an inline equation: $ \alpha = 1 $
+This is an inline equation: $\alpha = 1$
 
-This is a second equation: $$ \alpha = \beta $$
+This is a second equation: $$\alpha = \beta$$
+
+This is a third equation: \\[\alpha = \beta\\]
+
+This is fourth equation: \[\alpha = \beta\]
 
 General notes and suggestions for customizing **HPSTR**.
 
