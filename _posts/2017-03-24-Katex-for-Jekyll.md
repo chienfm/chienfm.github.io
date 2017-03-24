@@ -68,9 +68,7 @@ Is it O.K.?
 Another Test:
 
 \\[
-\begin{equation}
 P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{ - \frac{(x - \mu)^2}{2\sigma ^2}}
-\end{equation}
-\\]
+\\] (1)
 
 Phew! Hope this trick could help you!
