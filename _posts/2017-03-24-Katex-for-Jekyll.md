@@ -54,9 +54,11 @@ Note that, `"main"` is the name of the **main content** in my page. You can refe
 
 Now we can test some equations.
 - A simple equation
+
 ```code
 \\[\alpha = \beta\\]
 ```
+
 \\[\alpha = \beta\\]
 
 Inline: $\alpha = \beta$
@@ -75,6 +77,9 @@ P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{ - \frac{(x - \mu)^2}{2\sigma ^2}}
 
 
 $$\alpha = \beta$$ (1.1)
+
+
+<section class="eqno"><eqn><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>α</mi><mo>=</mo><mi>β</mi></mrow><annotation encoding="application/x-tex">\\alpha = \\beta </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.69444em;"></span><span class="strut bottom" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="base displaystyle textstyle uncramped"><span class="mord mathit" style="margin-right:0.0037em;">α</span><span class="mrel">=</span><span class="mord mathit" style="margin-right:0.05278em;">β</span></span></span></span></span></eqn><span>(1.1)</span></section>
 ---
 
 Finally, now I can type math on my Page with Katex! Hope this trick could also help you!
