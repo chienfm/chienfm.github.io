@@ -73,6 +73,8 @@ Another Test:
 P(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{ - \frac{(x - \mu)^2}{2\sigma ^2}}
 \\)                                                                            
 
+
+$$\alpha = \beta$$ (1.1)
 ---
 
 Finally, now I can type math on my Page with Katex! Hope this trick could also help you!
