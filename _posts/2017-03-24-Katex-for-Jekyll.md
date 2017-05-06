@@ -13,7 +13,7 @@ image:
 ### 1. Reason
 
 I recently create a github page for writing somethings in my spare time. The most thing I would do involving computational fluid dynamics.I was going to write my first post but suddenly found that my theme did not have a math render. Working around, I find out there are two ways to do that:
-- [MathJax](https://www.mathjax.org/): a popular math render. There are some good [blogs](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/) show you how to embbed it into github page.
+- [MathJax](https://www.mathjax.org/): a popular math render. There are some good [blogs](https://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/) show you how to embbed it into github page.
 - [Katex](https://github.com/Khan/KaTeX): I actually know it when I use **VScode**. It's pretty faster than Mathjax as proving in [this blog](https://github.com/Khan/KaTeX).So I did embbed it in my page. Here, I show you a simply way to do that since I found no clear instruction. I hope it would help someones with no experence in JS or CSS like me. 
 
 ---
