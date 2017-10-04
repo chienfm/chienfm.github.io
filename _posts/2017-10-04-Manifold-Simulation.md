@@ -13,6 +13,8 @@ last_modified_at: 2017-10-03T21:33:37-04:00
 
  This video shows a simulation of flow in a generic header!
 
+ $/alpha = /beta$
+
  **Descriptions**:
 * VOF model
 * Fully hex mesh
