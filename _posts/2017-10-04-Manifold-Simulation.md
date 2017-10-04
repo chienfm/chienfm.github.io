@@ -2,15 +2,8 @@
 title: "Manifolds Simulation"
 categories:
   - Post Formats
-  - Simulation
-  - Video
-excerpt: "Post displaying a simulation of flow inside a genetic header"
 tags:
   - Post Formats
-  - CFD
-  - Header
-  - VOF
-  - OpenFOAM
 last_modified_at: 2017-10-03T21:33:37-04:00
 ---
 
