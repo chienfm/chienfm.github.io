@@ -276,6 +276,11 @@ This element styles large blocks of code.
 </pre>
 
 ## **17. Quote element**
+```
+<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
+```
+
+*Result:*
 
 <q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
 
@@ -284,13 +289,28 @@ This element styles large blocks of code.
 This element shows **bold text**.
 
 ## **19. Subscript element**
+```
+Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
+```
+
+*Result:*
 
 Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
 
 ## **20. Superscript element**
+```
+Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
+```
+
+*Result:*
 
 Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
 
 ## **21. Variable element**
+```
+This allows you to denote <var>variables</var>.
+```
+
+*Result:*
 
 This allows you to denote <var>variables</var>.
