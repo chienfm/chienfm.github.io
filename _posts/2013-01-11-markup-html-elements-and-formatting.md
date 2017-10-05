@@ -37,7 +37,9 @@ last_modified_at: 2017-03-09T10:55:59-05:00
 ```
 > Stay hungry. Stay foolish.
 ```
-Result:
+
+*Result:*
+
 > Stay hungry. Stay foolish.
 
 
@@ -49,7 +51,7 @@ Result:
 {: .small}
 ```
 
-*Results*
+*Results:*
 
 > People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.
 
@@ -78,7 +80,7 @@ Result:
 | Foot1   | Foot2   | Foot3   |
 ```
 
-*Results*
+*Results:*
 
 | Employee         | Salary |                                                              |
 | --------         | ------ | ------------------------------------------------------------ |
@@ -127,7 +129,7 @@ Do It Live
   * List item four
 ```
 
-*Results*
+*Results:*
 
   * List item one 
       * List item one 
@@ -158,7 +160,7 @@ Do It Live
   4. List item four
 ```
 
-*Results*
+*Results:*
 
 
   1. List item one 
@@ -221,6 +223,11 @@ The abbreviation CSS stands for "Cascading Style Sheets".
 You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
 
 ## **12. Strike element**
+```
+This element will let you <strike>strikeout text</strike>.
+```
+
+*Result:*
 
 This element will let you <strike>strikeout text</strike>.
 
@@ -233,6 +240,11 @@ The emphasize element should _italicize_ text.
 This element should denote <ins>inserted</ins> text.
 
 ## **15. Keyboard element**
+```
+This scarcely known element emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` element.
+```
+
+*Result:*
 
 This scarcely known element emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` element.
 
