@@ -51,13 +51,13 @@ We need to call the exposed fuction <kbd> renderMathInElement </kbd> in a **scri
 
 1. Inline
     ```
-    Test 1: $f(x) = x^2$
+    Test 1: $f(x) = x^2$    # Inline Render
 
-    Test 2: $$f(x) = x^2$$
+    Test 2: $$f(x) = x^2$$  # New line, center
 
-    Test 3: \\[f(x) = x^2\\]
+    Test 3: \\[f(x) = x^2\\] # New line, center
 
-    Test 4: \\(f(x) = x^2\\)
+    Test 4: \\(f(x) = x^2\\) # Inline
     ```
 
 Result:
@@ -70,3 +70,4 @@ Test 3: \\[f(x) = x^2\\]
 
 Test 4: \\(f(x) = x^2\\)
 
+OOp! Test 2 does not show anything. But, it's still fine for me ^^!.
