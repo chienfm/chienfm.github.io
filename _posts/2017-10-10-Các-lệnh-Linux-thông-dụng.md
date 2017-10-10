@@ -16,10 +16,12 @@ Bài viết này tập hợp các lệnh thông dụng và hữu ích khi làm v
 
 ### 1. Linux
 1.1 Các lệnh điều hướng:
-* <kbd> pwd </kbd>    : Hiển thị tên thư mục đang làm việc
-* <kbd> ls </kbd>     : Hiển thị các thư mục và file có trong thư mục hiện tại
-* <kbd> cd </kbd>     : Chuyển tới thư mục mới
-    * <kbd> cd .. </kbd>: Trở về 1 thư mục trước
+* <kbd> pwd </kbd>    : Hiển thị tên thư mục đang làm việc.
+* <kbd> ls </kbd>     : Hiển thị các thư mục và file có trong thư mục hiện tại.
+  * <kbd> ls * </kbd> : Liệt kê tất cả các file trong folder hiện hành bao gồm cả thư mục con.
+  * <kbd> ls Name </kbd>: Liệt kê tất cả các file trong folder <kbd>Name</kbd> nằm trong thư mục hiện tại.
+* <kbd> cd </kbd>     : Chuyển tới thư mục mới.
+    * <kbd> cd .. </kbd>: Trở về 1 thư mục trước.
 
 1.2 Các lệnh hiển thị
 
