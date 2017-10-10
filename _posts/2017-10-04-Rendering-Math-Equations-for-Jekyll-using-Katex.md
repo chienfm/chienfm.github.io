@@ -3,6 +3,8 @@ title: "Simply Way to Render Math Equations for Jekyll using Katex"
 sub_title: "Katex configuration for Jekyll"
 categories:
   - Katex
+  - Jekyll
+  - Math Render
 elements:
   - Math Equation
   - css
