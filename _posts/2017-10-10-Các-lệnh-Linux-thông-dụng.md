@@ -23,7 +23,7 @@ Bài viết này tập hợp các lệnh thông dụng và hữu ích khi làm v
 
 1.2 Các lệnh hiển thị
 
-* <kbd> cat </kbd     : Hiển thị nội dung chỉ định trong 1 file, có nhiều lựa chọn đi kèm.
+* <kbd> cat </kbd>     : Hiển thị nội dung chỉ định trong 1 file, có nhiều lựa chọn đi kèm.
 * <kbd> tail </kbd>   : Hiện thị dòng cuối cùng trong văn bản, có nhiều lựa chọn đi kèm.
 
 1.3 Các lệnh làm việc với file
