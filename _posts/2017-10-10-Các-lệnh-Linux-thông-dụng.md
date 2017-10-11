@@ -1,5 +1,5 @@
 ---
-title: "Các lệnh thông dụng và hữu ích khi làm việc với Linux và OpenFOAM"
+title: "Các lệnh thông dụng khi làm việc với Linux và OpenFOAM"
 sub_title: "Useful command line when working with Linux and OpenFOAM"
 categories:
   - Command Line
