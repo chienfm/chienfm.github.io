@@ -31,22 +31,22 @@ Vậy còn đối với các bạn có ít kinh nghiệm hoặc mới tiếp xú
 Sau khi bỏ rất nhiều công sức cho việc xây dựng mô hình, chia lưới và thiết lập ... có lẽ cái cảm giác ấn nút (hoặc gõ lệnh) để cho chương trình chạy rồi ngồi đợi kết quả sẽ rất cuốn hút bạn. Mình thường xuyên trải qua cảm giác đó. Tuy nhiên, chỉ một thao tác nhầm lẫn có thể khiến bạn mất nhiều công sức để rà soát lại từ đầu xem lỗi phát sinh từ đâu. Nó khiến bạn mệt mỏi hơn khi quá trình này cứ lặp đi lặp lại, hoặc tệ hơn là khi chạy được 99% thì bạn nhớ ra là bạn đã thiết lập sai 1 thông số nào đó. Do vậy, <span style ="color:blue">*lời khuyên đầu tiên dành cho bạn là luôn kiểm tra thật kĩ mọi thiết lập trước khi chạy*</span>. Tốt nhất là bạn hãy lập ra 1 danh sách các thông số cần quan tâm. Nó có thể bao gồm:
 {: .text-justify}
   1. Mô hình (Geometry):
-      * Đơn vị: inch, meter hay mm? Mình từng mất vài ngày để tìm ra lỗi sai của chương trình chỉ vì không thống nhất đơn vị của mô hình và solver. Điều này rất dễ xảy ra khi bạn sử dụng các phần mềm của các hãng khác nhau trong các công đoạn trong 1 project.
-      {: .text-justify}
-      * Tính chính xác của bản vẽ: Điều này thường ít xảy ra nhưng đôi lúc lại rất nghiêm trọng. Nhiều tip mô phỏng dạy bạn cách giảm bớt sự phức tạp của mô hình bằng cách bỏ qua một vài góc lượn hoặc chi tiết. Phương pháp này hữu ích khi bạn hiểu rõ tính chất vật lý/hiện tượng của phương pháp mô phỏng bạn đang áp dụng. Ngược lại, nó có thể khiến kết quả mô phỏng bị sai lệch. Tất nhiên, bạn hoàn toàn có thể đánh giá sai lệch này để rút ra kinh nghiệm cho các project tương tự. Điều này giúp bạn cân bằng giữa sai số và tính phức tạp của mô hình trong giới hạn cho phép.
-      {: .text-justify}
+    * Đơn vị: inch, meter hay mm? Mình từng mất vài ngày để tìm ra lỗi sai của chương trình chỉ vì không thống nhất đơn vị của mô hình và solver. Điều này rất dễ xảy ra khi bạn sử dụng các phần mềm của các hãng khác nhau trong các công đoạn trong 1 project.
+    {: .text-justify}
+    * Tính chính xác của bản vẽ: Điều này thường ít xảy ra nhưng đôi lúc lại rất nghiêm trọng. Nhiều tip mô phỏng dạy bạn cách giảm bớt sự phức tạp của mô hình bằng cách bỏ qua một vài góc lượn hoặc chi tiết. Phương pháp này hữu ích khi bạn hiểu rõ tính chất vật lý/hiện tượng của phương pháp mô phỏng bạn đang áp dụng. Ngược lại, nó có thể khiến kết quả mô phỏng bị sai lệch. Tất nhiên, bạn hoàn toàn có thể đánh giá sai lệch này để rút ra kinh nghiệm cho các project tương tự. Điều này giúp bạn cân bằng giữa sai số và tính phức tạp của mô hình trong giới hạn cho phép.
+    {: .text-justify}
 
   2. Chia lưới (Meshing):
-      * Chọn kích thước phần tử: khi bạn bắt đầu làm quen với CFD, hãy luôn tập cho mình thói quen kiểm tra sự độc lập của kích thước phần tử với kết quả mô phỏng. Với cùng một mô hình, hãy tạo ra ít nhất 3 kích thước khác nhau để kiểm chứng. Điều này có thể rất mất thời gian nhưng lại rất hữu ích. Dù sao, hướng đến của của các phương pháp CFD là tính chính xác chứ không phải chỉ là màu sắc rất đẹp hiển thị trên màn hình.
-      {: .text-justify}
+    * Chọn kích thước phần tử: khi bạn bắt đầu làm quen với CFD, hãy luôn tập cho mình thói quen kiểm tra sự độc lập của kích thước phần tử với kết quả mô phỏng. Với cùng một mô hình, hãy tạo ra ít nhất 3 kích thước khác nhau để kiểm chứng. Điều này có thể rất mất thời gian nhưng lại rất hữu ích. Dù sao, hướng đến của của các phương pháp CFD là tính chính xác chứ không phải chỉ là màu sắc rất đẹp hiển thị trên màn hình.
+    {: .text-justify}
 
   3. Solver:
-      * Loại biên (boundary type): chọn cho mình loại biên phù hợp với điều kiện vật lý và các thiết lập đi kèm là rất quan trọng với một bài toán CFD. Điều này chỉ có thể tích lũy qua việc tham gia các bài giảng, tutorial, training ... và nếu một điều kiện biên nào đó không có sẵn thì bạn có thể tự viết riêng cho mình (phần này có thể mình sẽ đề cập trong 1 chuyên đề khác).
-      {: .text-justify}
-      * Điều kiện đầu (Initial condition) và thông số biên (boundary condition): Hãy luôn chắc rằng bạn đã thiết lập đúng các giá trị, đơn vị. Chắc hơn, hãy kiểm tra một vài lượt trước khi chạy mô hình.
-      {: .text-justify}
-      * Scheme and Solution: phần này khá chuyên sâu, mình sẽ cập nhật nội dung hoặc viết riêng 1 topic khác.
-      {: .text-justify}
+    * Loại biên (boundary type): chọn cho mình loại biên phù hợp với điều kiện vật lý và các thiết lập đi kèm là rất quan trọng với một bài toán CFD. Điều này chỉ có thể tích lũy qua việc tham gia các bài giảng, tutorial, training ... và nếu một điều kiện biên nào đó không có sẵn thì bạn có thể tự viết riêng cho mình (phần này có thể mình sẽ đề cập trong 1 chuyên đề khác).
+    {: .text-justify}
+    * Điều kiện đầu (Initial condition) và thông số biên (boundary condition): Hãy luôn chắc rằng bạn đã thiết lập đúng các giá trị, đơn vị. Chắc hơn, hãy kiểm tra một vài lượt trước khi chạy mô hình.
+    {: .text-justify}
+    * Scheme and Solution: phần này khá chuyên sâu, mình sẽ cập nhật nội dung hoặc viết riêng 1 topic khác.
+    {: .text-justify}
 
 ### 2. Từ đơn giản đến phức tạp
 
