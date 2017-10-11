@@ -45,7 +45,8 @@ Sau khi bỏ rất nhiều công sức cho việc xây dựng mô hình, chia l�
     * Loại biên (boundary type): chọn cho mình loại biên phù hợp với điều kiện vật lý và các thiết lập đi kèm là rất quan trọng với một bài toán CFD. Điều này chỉ có thể tích lũy qua việc tham gia các bài giảng, tutorial, training ... và nếu một điều kiện biên nào đó không có sẵn thì bạn có thể tự viết riêng cho mình (phần này có thể mình sẽ đề cập trong 1 chuyên đề khác).
     {: .text-justify}
 
-    * Điều kiện đầu (Initial condition) và thông số biên (boundary condition): Hãy luôn chắc rằng bạn đã thiết lập đúng các giá trị, đơn vị. Chắc hơn, hãy kiểm tra một vài lượt trước khi chạy mô hình.{: .text-justify}
+    * Điều kiện đầu (Initial condition) và thông số biên (boundary condition): Hãy luôn chắc rằng bạn đã thiết lập đúng các giá trị, đơn vị. Chắc hơn, hãy kiểm tra một vài lượt trước khi chạy mô hình.
+    {: .text-justify}
     * Scheme and Solution: phần này khá chuyên sâu, mình sẽ cập nhật nội dung hoặc viết riêng 1 topic khác.
     {: .text-justify}
 
