@@ -56,6 +56,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-last-modified-at
 
 # Jekyll Feed
 feed:
@@ -64,6 +65,7 @@ feed:
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
