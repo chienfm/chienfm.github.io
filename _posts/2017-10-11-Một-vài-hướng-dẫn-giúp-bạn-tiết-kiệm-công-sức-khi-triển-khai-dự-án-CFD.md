@@ -13,8 +13,9 @@ elements:
   - markup
 last_modified_at: 2017-10-11T12:11:59-05:00
 ---
-<justify>
+
 Tôi chắc rằng hầu hết các bạn làm mô phỏng đã từng trải qua cảm giác lo lắng khi chương trình bắt đầu chạy dù cho trước đó bạn đã dành rất nhiều thời gian cho việc dựng mô hình, chia lưới, set điều kiện biên và solver. 
+{: .text-justify}
 
 *Rất nhiều trường hợp có thể xảy ra! Liệu rằng chương trình có bị dừng ngay tức khắc hay là nó lỗi khi đã hoàn thành 70, 80% thậm chí là 96%? Chương trình sẽ chạy mất bao lâu, 1 giờ, 2 giờ hay vài ngày và nằm ngoài dự tính của bạn?*
 
@@ -54,6 +55,4 @@ Nếu bạn bế tắc cả tháng trời mà không tìm ra phương pháp, hã
 Đôi lúc bạn bỏ rất nhiều thời gian mà chương trình chạy không như mong muốn. Hãy nghỉ ngơi, uống 1 cốc cafe, xem một bộ phim hay chơi một ván game. Khi quay lại đột nhiên bạn sẽ nhận ra điểm sai xót của mình. 
 
 
-<kbd>Hãy luôn duy trì sự nhẫn nại và tỉnh táo, bạn sẽ thành công trong thế giới CFD </kbd>
-
-</justify>
+<kbd>Hãy luôn duy trì sự nhẫn nại và tỉnh táo, bạn sẽ thành công trong thế giới CFD.</kbd>
