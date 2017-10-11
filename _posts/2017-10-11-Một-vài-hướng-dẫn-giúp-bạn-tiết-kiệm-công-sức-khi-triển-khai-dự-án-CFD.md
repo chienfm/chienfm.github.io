@@ -1,6 +1,7 @@
 ---
 title: "Tiết kiệm thời gian cho dự án CFD của bạn qua một vài bước đơn giản"
 sub_title: "A CFD Practise Guide"
+image: /assets/images/enter-1636527.jpg
 categories:
   - CFD
   - Practise Guide
