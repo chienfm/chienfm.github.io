@@ -23,7 +23,7 @@ t:
 # Google Fonts
 google_fonts:
   - name: "Fira Sans"
-    weights: "200,200i,300,300i"
+    weights: "250,250i,350,350i"
 
 # Link to specific internal pages in the navigation.
 # Create a custom list to override the default setting of including links to all
