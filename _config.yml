@@ -90,5 +90,5 @@ defaults:
       read_time: true
       breadcrumbs:
         - label: "Blog Articles"
-          url: 
+          url: /
     
