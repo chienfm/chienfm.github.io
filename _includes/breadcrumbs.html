@@ -2,7 +2,9 @@
 {% assign crumb = page.breadcrumbs[0] %}
 <h3 class="breadcrumbs">
   <a href="{{ crumb.url | relative_url }}">
-    <svg class="icon icon--back-arrow" width="16px" height="16px">{% include back-arrow.svg %}</svg> {{ crumb.label }}
+    <!-- <svg class="icon icon--back-arrow" width="16px" height="16px">{% include back-arrow.svg %}</svg> {{ crumb.label }} -->
+    <span class="icon icon--back-arrow">{% include icon-back-arrow.svg %}</span>
+    <span class="label">{{ crumb.label }}</span>
   </a>  
 </h3>
 {% endif %}
