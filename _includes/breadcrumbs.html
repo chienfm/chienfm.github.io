@@ -1,8 +1,8 @@
 {% if page.breadcrumbs %}
 {% assign crumb = page.breadcrumbs[0] %}
-<ul class="breadcrumbs">
+<h3 class="breadcrumbs">
   <a href="{{ crumb.url | relative_url }}">
     <svg class="icon icon--back-arrow" width="16px" height="16px">{% include back-arrow.svg %}</svg> {{ crumb.label }}
   </a>  
-</ul>
+</h3>
 {% endif %}
