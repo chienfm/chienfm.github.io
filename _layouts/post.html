@@ -9,8 +9,9 @@ layout: default
     <article class="entry-wrap">
       <div class="entry-content">
         {{ content }}
-        {% include ad_test1.html %}
+        {% include ad-test1.html %}
       </div>
+      {% include social-share.html %}
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}
