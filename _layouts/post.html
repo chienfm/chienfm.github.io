@@ -9,13 +9,13 @@ layout: default
     <article class="entry-wrap">
       <div class="entry-content">
         {{ content }}
+        {% include ad_test1.html %}
       </div>
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}
     </article>
     {% include footer.html %}
-    {% include ad_test1.html %}
   </div>
   <script>
     renderMathInElement(
