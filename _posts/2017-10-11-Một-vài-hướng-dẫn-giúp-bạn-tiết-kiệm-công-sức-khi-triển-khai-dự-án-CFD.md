@@ -12,7 +12,7 @@ elements:
   - formatting
   - html
   - markup
-last_modified_at: 2017-10-11T12:11:59-05:00
+last_modified_at: 2017-10-13T15:55
 ---
 
 Có lẽ hầu hết các bạn làm mô phỏng đã từng trải qua cái cảm giác lo lắng khi chương trình bắt đầu chạy dù cho trước đó bạn đã dành rất nhiều thời gian cho việc dựng mô hình, chia lưới, chọn solver và đặt điều kiện biên. 
@@ -72,7 +72,7 @@ Nếu bạn bế tắc cả tháng trời mà không tìm ra phương pháp, hã
 
 ### 5. Just Relax
 
-Đôi lúc bạn bỏ rất nhiều thời gian mà chương trình chạy không như mong muốn. Hãy nghỉ ngơi, uống 1 cốc cafe, xem một bộ phim hay chơi một ván game. Khi quay lại đột nhiên bạn sẽ nhận ra điểm sai xót của mình.
+Đôi lúc bạn bỏ rất nhiều thời gian mà chương trình chạy không như mong muốn. Hãy nghỉ ngơi, uống 1 cốc cafe, xem một bộ phim hay chơi một ván game. Khi quay lại đột nhiên bạn sẽ nhận ra điểm sai sót của mình.
 {: .text-justify}
 
 
