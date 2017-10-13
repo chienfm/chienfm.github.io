@@ -18,6 +18,9 @@
     {% if post.read_time %}
       <li><span class="icon">{% include icon-stopwatch.svg %}</span>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</li>
     {% endif %}
+    {% if post.last_modified_at %}
+    <li><span class="icon">{% include icon-pdf.svg %}</span><time class="entry-time" datetime="{{ post.last_modified_at | date_to_xmlschema }}">{{ post.last_modified_at | date: "Last Updated: %B %-d, %Y" }}</time></li>
+  {% endif %}
     </ul>
   </footer>
   <div class="entry-excerpt">
