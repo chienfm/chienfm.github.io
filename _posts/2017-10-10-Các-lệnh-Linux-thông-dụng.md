@@ -49,7 +49,7 @@ Bài viết này tập hợp các lệnh thông dụng và hữu ích khi làm v
 
 2.1 Tìm kiếm file và thư mục
 
-| Command                               | Salary                                                             |
+| Command                               | Ý nghĩa                                                            |
 | ------------------------------        | ------------------------------------------------------------------ |
 | find $FOAM_SRC                        | Liệt kê file, folder, đường dẫn trong thư mục nguồn                |
 | find $FOAM_SRC -name fvMesh.H         | Liệt kê file và đường dẫn có tên *fvMesh* trong thư mục nguồn      |
