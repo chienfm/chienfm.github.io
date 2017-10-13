@@ -1,6 +1,6 @@
 ---
 title: "Các lệnh thông dụng khi làm việc với Linux và OpenFOAM"
-sub_title: "Useful command line when working with Linux and OpenFOAM"
+sub_title: "Useful commands when working with Linux and OpenFOAM"
 categories:
   - Command Line
   - Linux
@@ -10,7 +10,7 @@ elements:
   - formatting
   - html
   - markup
-last_modified_at: 2017-10-10T11:23:59-12:00
+last_modified_at: 2017-10-13T18:13:59
 ---
 Bài viết này tập hợp các lệnh thông dụng và hữu ích khi làm việc với <kbd>Linux</kbd> và <kbd>OpenFOAM</kbd>.
 
@@ -47,4 +47,15 @@ Bài viết này tập hợp các lệnh thông dụng và hữu ích khi làm v
 
 ### 2. OpenFOAM
 
-Being updated ...
+2.1 Tìm kiếm file và thư mục
+
+| Command                               | Salary                                                             |
+| ------------------------------        | ------------------------------------------------------------------ |
+| find $FOAM_SRC                        | Liệt kê file, folder, đường dẫn trong thư mục nguồn                |
+| find $FOAM_SRC -name fvMesh.H         | Liệt kê file và đường dẫn có tên *fvMesh* trong thư mục nguồn      |
+| find $FOAM_SRC -name fvMesh.H -type f | Liệt kê tất cả file có tên *fvMesh* trong thư mục nguồn            |
+| find $FOAM_SRC -name fvMesh.H -type l | Liệt kê đường dẫn của file có tên *fvMesh* trong thư mục nguồn     |
+| find $FOAM_SRC -name "\*.[CH]" -type f| Liệt kê tất cả file .H hoặc .C trong thư mục nguồn                 |
+
+
+Note: [Tham khảo thêm](https://cfd.direct/openfoam/linux-guide/)
