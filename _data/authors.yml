@@ -1,0 +1,19 @@
+# Authors
+
+Author1:
+  name        : "author1"
+  uri         : "https://author1.com"
+  email       : "author1@author1.com"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  twitter     : "author1"
+  google_plus : "author1"
+
+Author2:
+  name        : "author1"
+  uri         : "https://author1.com"
+  email       : "author1@author1.com"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  twitter     : "author1"
+  google_plus : "author1"

@@ -1,18 +1,14 @@
 ---
 title: "Tiết kiệm thời gian cho dự án CFD của bạn qua một vài bước đơn giản"
-sub_title: "A CFD Practise Guide"
-featured-img: /assets/images/enter-1636527.jpg
+excerpt: "Bài viết này đưa ra một vài lời khuyên cho các bạn mới tìm hiểu về mô phỏng"
+header:
+  overlay_color: "#333"
 categories:
   - CFD
+tags:
+  - CFD
   - Practise Guide
-  - Hướng dẫn CFD
-elements:
-  - Math Equation
-  - css
-  - formatting
-  - html
-  - markup
-last_modified_at: 2017-10-13T15:55
+last_modified_at: 2017-10-17T15:55
 ---
 
 Có lẽ hầu hết các bạn làm mô phỏng đã từng trải qua cái cảm giác lo lắng khi chương trình bắt đầu chạy dù cho trước đó bạn đã dành rất nhiều thời gian cho việc dựng mô hình, chia lưới, chọn solver và đặt điều kiện biên. 
@@ -26,7 +22,7 @@ Thực ra điều đó là hoàn toàn bình thường khi bạn làm CFD. Theo 
 
 Vậy còn đối với các bạn có ít kinh nghiệm hoặc mới tiếp xúc với các bài toán CFD, làm sao để hạn chế điều đó. Hướng dẫn sau đây có thể sẽ giúp ích cho bạn.
 {: .text-justify}
-
+{% include toc icon="gears" title="My Table of Contents" %}
 ### 1. Kiểm tra kĩ lưỡng các thiết lập
 
 Sau khi bỏ rất nhiều công sức cho việc xây dựng mô hình, chia lưới và thiết lập... có lẽ cái cảm giác ấn nút (hoặc gõ lệnh) để cho chương trình chạy rồi ngồi đợi kết quả sẽ rất cuốn hút bạn. Mình thường xuyên trải qua cảm giác đó. Tuy nhiên, chỉ một thao tác nhầm lẫn có thể khiến bạn mất nhiều công sức để rà soát lại từ đầu xem lỗi phát sinh từ đâu. Nó khiến bạn mệt mỏi hơn khi quá trình này cứ lặp đi lặp lại, hoặc tệ hơn là khi chạy được 99% thì bạn nhớ ra là bạn đã thiết lập sai 1 thông số nào đó. Do vậy, <span style ="color:blue">*lời khuyên đầu tiên dành cho bạn là luôn kiểm tra thật kĩ mọi thiết lập trước khi chạy*</span>. Tốt nhất là bạn hãy lập ra 1 danh sách các thông số cần quan tâm. Nó có thể bao gồm:
