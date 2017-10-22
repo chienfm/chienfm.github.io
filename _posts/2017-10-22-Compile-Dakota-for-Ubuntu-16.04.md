@@ -3,7 +3,7 @@ title: "Compile Dakota for Ubuntu 16.04"
 excerpt: "This post shows how to compile Dakota in Ubuntu 16.04"
 header:
   overlay_color: "#333"
-  teaser: "/assets/images/teaser/compile_dakota.jpg"
+  teaser: "/assets/images/teaser/compile_dakota.png"
 categories:
   - Dakota
 tags:
