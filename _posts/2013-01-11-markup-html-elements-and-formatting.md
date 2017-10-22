@@ -1,14 +1,10 @@
 ---
 title: "Markup: HTML Elements and Formatting"
-sub_title: "The common elements"
+excerpt: "The common elements"
 categories:
-  - Markup
-elements:
+  - Markdown
+tags:
   - content
-  - css
-  - formatting
-  - html
-  - markup
 last_modified_at: 2017-10-04T18:55:59-05:00
 ---
 

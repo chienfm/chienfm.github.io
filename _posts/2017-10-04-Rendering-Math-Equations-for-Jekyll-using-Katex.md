@@ -1,6 +1,6 @@
 ---
 title: "Simply Way to Render Math Equations for Jekyll using Katex"
-sub_title: "Katex configuration for Jekyll"
+excerpt: "How to configure a math render for Jekyll using Katex"
 header: 
   teaser: "/assets/images/teaser/katex.png"
 categories:
