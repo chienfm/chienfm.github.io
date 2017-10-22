@@ -1,13 +1,14 @@
 ---
 title: "Manifolds Simulation"
+header: 
+  teaser: "/assets/images/teaser/manifold.png"
 categories:
   - OpenFOAM
-  - VOF
-  - Simulation
-  - Manifolds
 tags:
-  - Post Formats
-last_modified_at: 2017-10-10T21:33:37-04:00
+  - VOF
+  - Manifold
+  - Simulation
+last_modified_at: 2017-10-22T21:33:37-04:00
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

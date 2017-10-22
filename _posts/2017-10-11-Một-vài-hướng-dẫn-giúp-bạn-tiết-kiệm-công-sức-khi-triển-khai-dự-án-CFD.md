@@ -3,6 +3,7 @@ title: "Tiết kiệm thời gian cho dự án CFD của bạn qua một vài b�
 excerpt: "Bài viết này đưa ra một vài lời khuyên cho các bạn mới tìm hiểu về mô phỏng"
 header:
   overlay_color: "#333"
+  teaser: "/assets/images/teaser/tip.jpg"
 categories:
   - CFD
 tags:

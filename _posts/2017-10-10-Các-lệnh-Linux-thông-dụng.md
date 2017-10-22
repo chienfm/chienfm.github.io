@@ -1,16 +1,14 @@
 ---
 title: "Các lệnh thông dụng khi làm việc với Linux và OpenFOAM"
 sub_title: "Useful commands when working with Linux and OpenFOAM"
+header: 
+  teaser: "/assets/images/teaser/commands_line.png"
 categories:
-  - Command Line
   - Linux
+tags:
+  - Terminal Commands
   - OpenFoam
-elements:
-  - css
-  - formatting
-  - html
-  - markup
-last_modified_at: 2017-10-13T18:13:59
+last_modified_at: 2017-10-21T18:13:59
 ---
 Bài viết này tập hợp các lệnh thông dụng và hữu ích khi làm việc với <kbd>Linux</kbd> và <kbd>OpenFOAM</kbd>.
 

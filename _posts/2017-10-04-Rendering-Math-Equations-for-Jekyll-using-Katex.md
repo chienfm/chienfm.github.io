@@ -1,17 +1,13 @@
 ---
 title: "Simply Way to Render Math Equations for Jekyll using Katex"
 sub_title: "Katex configuration for Jekyll"
+header: 
+  teaser: "/assets/images/teaser/katex.png"
 categories:
-  - Katex
-  - Jekyll
   - Math Render
-elements:
-  - Math Equation
-  - css
-  - formatting
-  - html
-  - markup
-last_modified_at: 2017-10-04T18:55:59-05:00
+tags:
+  - Katex
+last_modified_at: 2017-10-21T18:55:59-05:00
 ---
 
 [KaTeX](https://github.com/Khan/KaTeX) is a very fast, easy-to-use JavaScript library for TeX math rendering on the Jekyll websites. It also supports various browsers including IE, Chrome and Firefox ... Since my current theme does not support the math render in default, I plan to implement Katex. Luckily, it's not so diffucult to do that.
