@@ -13,7 +13,7 @@ tags:
   - Dakota
 last_modified_at: 2017-10-22T22:37
 ---
-[Dakota]("https://dakota.sandia.gov/") is a flexible tool which compounds a lot of mathematical and statistical methods. Dakota is extremely useful when we combine it with a simulation procedure such as OpenFoam. 
+[Dakota](https://dakota.sandia.gov/) is a flexible tool which compounds a lot of mathematical and statistical methods. Dakota is extremely useful when we combine it with a simulation procedure such as OpenFoam. 
 
 However, Sandia Lab does not provide build version for Ubuntu. Also, when I look around some forums, there is no detailed tutorial for Ubuntu 16.04. Therefore, I'm going to write this one to share my way, step by step. I hope you find them useful. 
 
@@ -101,6 +101,6 @@ However, Sandia Lab does not provide build version for Ubuntu. Also, when I look
    ```bash
    ~$ dakota -v
    ```
-  If the screen show the version and build date, the job is finished!  You also can follow the steps on [ the Dakota website]("https://dakota.sandia.gov/content/test-installation-0") to check the installation. 
+  If the screen show the version and build date, the job is finished!  You also can follow the steps on [ the Dakota website](https://dakota.sandia.gov/content/test-installation-0) to check the installation. 
 
 Now you can use dakota in Ubuntu. The build was done for dakota 6.4 but might work with newer versions.
