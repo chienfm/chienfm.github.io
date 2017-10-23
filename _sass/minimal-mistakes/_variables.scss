@@ -109,11 +109,11 @@
       Breakpoints
       ========================================================================== */
 
-   $small                        : 600px !default;
-   $medium                       : 768px !default;
-   $medium-wide                  : 900px !default;
-   $large                        : 1024px !default;
-   $x-large                      : 1280px !default;
+   $small                        : 768px !default;  /*or. 600*/
+   $medium                       : 1024px !default;  /*or. 768*/
+   $medium-wide                  : 1366px !default;  /*or. 900*/
+   $large                        : 1920px !default; /*or. 1024*/
+   $x-large                      : 2560px !default; /*or. 1280*/
 
 
    /*
@@ -121,8 +121,8 @@
       ========================================================================== */
 
    $right-sidebar-width-narrow   : 200px !default;
-   $right-sidebar-width          : 300px !default;
-   $right-sidebar-width-wide     : 400px !default;
+   $right-sidebar-width          : 200px !default;  /*or. 300*/
+   $right-sidebar-width-wide     : 200px !default;  /*or. 400*/
 
 
    /*
