@@ -1,5 +1,5 @@
 ---
-title: "Compile Dakota for Ubuntu 16.04"
+title: "Dakota Installation on Ubuntu 16.04"
 excerpt: "This post shows how to compile Dakota in Ubuntu 16.04"
 header:
   overlay_color: "#333"
@@ -15,7 +15,7 @@ last_modified_at: 2017-10-22T22:37
 ---
 [Dakota](https://dakota.sandia.gov/) is a flexible tool which compounds a lot of mathematical and statistical methods. Dakota is extremely useful when we combine it with a simulation procedure such as OpenFoam. 
 
-However, Sandia Lab does not provide build version for Ubuntu. Also, when I look around some forums, there is no detailed tutorial for Ubuntu 16.04. Therefore, I'm going to write this one to share my way, step by step. I hope you find them useful. 
+However, Sandia Lab does not provide a build version for Ubuntu. Also, when I look around some forums, there is no detailed tutorial shows how to do that. Therefore, I write this one to share my way, step by step. I hope this could help someones those are not familar with compiling app in Ubuntu. The build was done for dakota 6.4 but might work with newer versions.
 
 ### 1 Preparation:
 
@@ -69,7 +69,7 @@ However, Sandia Lab does not provide build version for Ubuntu. Also, when I look
    > - Cmake shows a simply GUI and when you enter in ccmake, first press the key "c" to configure the script.
    > - If any error appears, go to the last line to check. If no, press "e" to return the main GUI.
    > - In main GUI, press "t" to toggle some features. Now you can move down and up the cursor. You can turn ON and OFF the features by press Enter.
-   > - Go down, find BUILD_SHARE_LIBS and turn it OFF (by default: it's turned ON). We turn off this since it conflicts with a library in OPENFOAM (libsampling.io).
+   > - `Go down, find BUILD_SHARE_LIBS and turn it OFF (by default: it's turned ON). We turn off this since it conflicts with a library in OPENFOAM (libsampling.io).`
    > - You also can move down to check the HAVE_X_GRAPHICS feature ON or OFF. This function shows a graph when u run dakota.
    > - All finish, press "c" again to configure all scripts. If no error appears, you can press "e" to back to the main menu.
    > - Finally press "g" to start generating the configuration.       
@@ -103,4 +103,4 @@ However, Sandia Lab does not provide build version for Ubuntu. Also, when I look
    ```
   If the screen show the version and build date, the job is finished!  You also can follow the steps on [ the Dakota website](https://dakota.sandia.gov/content/test-installation-0) to check the installation. 
 
-Now you can use dakota in Ubuntu. The build was done for dakota 6.4 but might work with newer versions.
+Congratulation! Now you can use dakota in Ubuntu.
