@@ -19,7 +19,7 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
 
 ### 1 Preparation:
 
-1.1  Install some nessesary packages
+**1.1  Install some nessesary packages**
 
   ```bash
   ~$ sudo apt-get install gcc g++ gfortran cmake cmake-curses-gui libboost-dev libboost-all-dev libblas-dev liblapack-dev libopenmpi-dev openmpi-bin openmpi-doc xorg-dev libmotif-dev
@@ -35,14 +35,15 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
   - XWindows: xorg-dev libmotif-dev
   - Python (optional): Python development dependencies (if using direct Python interface: python-dev, and python-numpy if you'd like a NumPy interface.
 
-1.2 Create the installation directory ($DAKOTA), and copy DAKOTA source code on it.	       
-1.3  Extract file in terminal.
+**1.2 Create the installation directory ($DAKOTA), and copy DAKOTA source code on it.**	       
+
+**1.3  Extract file in terminal.**
 
   ```bash
   ~$ tar -xzf dakota-6.4.0-public-src.tar.gz 
   ```
 
-1.4 Create and go to dakota-6.4.0 folder
+**1.4 Create and go to dakota-6.4.0 folder**
 
   ```bash
   ~$ cd DAKOTA
@@ -50,7 +51,7 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
   ~$ cd dakota-6.4.0 
   ```
 
-1.5 Copy file BuildDakotaTemplate.cmake and rename it to BuildDakotaCustom.cmake. You can edit some features if you want, check the content inside for detail. 
+**1.5 Copy file BuildDakotaTemplate.cmake and rename it to BuildDakotaCustom.cmake. You can edit some features if you want, check the content inside for detail.** 
 
   ```bash
   ~$ cp ~/DAKOTA/dakota-6.4.0.src/cmake/BuildDakotaTemplate.cmake ~/DAKOTA/dakota-6.4.0.src/cmake/BuildDakotaCustom.cmake 
@@ -58,7 +59,7 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
 
 ### 2 Building
 
-2.1  Run Cmake
+*2.1  Run Cmake*
 
    ```bash
    ~$ ccmake -C ~/DAKOTA/dakota-6.4.0.src/cmake/BuildDakotaCustom.cmake ~/DAKOTA/dakota-6.4.0.src -DCMAKE_INSTALL_PREFIX=~/DAKOTA/dakota-6.4.0 
@@ -74,21 +75,26 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
    > - All finish, press "c" again to configure all scripts. If no error appears, you can press "e" to back to the main menu.
    > - Finally press "g" to start generating the configuration.       
 
-2.2 Run make (The -j options is to compile in parallel, in this case I am compiling with 4 processors.)
+
+**2.2 Run make** 
+
+>(The -j options is to compile in parallel, in this case I am compiling with 4 processors.)
 
    ```bash
    ~$ make -j4
    ```
 
-2.3 Install
+**2.3 Install**
 
    ```bash
    ~$ make install                                                                             
    ```
 
-### 3 Adding path
+### 3 Path and Test
 
-3.1 When you finish the compilation, do not forget to add the following environment variables to your *.bashrc* file. Add the following lines at the end of *bashrc* and save.  
+**3.1 Add Path**
+
+When you finish the compilation, do not forget to add the following environment variables to your *.bashrc* file. Add the following lines at the end of *bashrc* and save.  
 
    ```bash
    ~$ gedit ~/.bashrc
@@ -96,11 +102,11 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
    ~$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/DAKOTA/dakota-6.4.0/bin:~/DAKOTA/dakota-6.4.0/lib 
    ```
 
-3.2 Test build
+**3.2 Test build**
 
    ```bash
    ~$ dakota -v
    ```
-  If the screen show the version and build date, the job is finished!  You also can follow the steps on [ the Dakota website](https://dakota.sandia.gov/content/test-installation-0) to check the installation. 
+  If the screen show the version and build date, the job is finished!  You also can follow the steps on [ the Dakota website](https://dakota.sandia.gov/content/test-installation-0) to fully check the installation. 
 
 Congratulation! Now you can use dakota in Ubuntu.
