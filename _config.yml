@@ -54,7 +54,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : #"UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" - #Replace this with your ID, or delete
+google_site_verification : "2_5qOAiTpKvEHcF_yh9SRrbON-cExGq7vb26rXRogEc" # Replace this with your ID, or delete
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
