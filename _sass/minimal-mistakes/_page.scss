@@ -410,12 +410,12 @@
   border-top: 1px solid $border-color;
 
   @include breakpoint($large) {
-    float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow} - 200px);
+    float: left;                                                      /*or. right*/
+    width: calc(100% - #{$right-sidebar-width-narrow} - 200px);       /*or. no minus 200px*/
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width} - 200px);
+    width: calc(100% - #{$right-sidebar-width} - 200px);              /*or. no minus 200px*/
   }
 
   a {
