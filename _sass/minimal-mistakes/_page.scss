@@ -415,6 +415,7 @@
   }
 
   @include breakpoint($x-large) {
+    float: left; 
     width: calc(100% - #{$right-sidebar-width} - 200px);              /*or. no minus 200px*/
   }
 
