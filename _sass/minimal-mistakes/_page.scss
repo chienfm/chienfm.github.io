@@ -412,9 +412,9 @@
   @include breakpoint($large) {
     position: relative;
     float: left;
-    margin-left: 0;
+    margin-left: 10%;
     margin-right: 0;
-    width: 100%;
+    width: 80%;
     clear: both;
     /*float: left;                                                      /*or. right*/
     /*width: calc(100% - #{$right-sidebar-width-narrow} - 200px);       /*or. no minus 200px*/
@@ -423,9 +423,9 @@
   @include breakpoint($x-large) {
     position: relative;
     float: left;
-    margin-left: 0;
+    margin-left: 10%;
     margin-right: 0;
-    width: 100%;
+    width: 80%;
     clear: both;
     /*width: calc(100% - #{$right-sidebar-width} - 200px);              /*or. no minus 200px*/
   }
