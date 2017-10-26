@@ -410,13 +410,24 @@
   border-top: 1px solid $border-color;
 
   @include breakpoint($large) {
-    float: center;                                                      /*or. right*/
-    width: calc(100% - #{$right-sidebar-width-narrow} - 200px);       /*or. no minus 200px*/
+    position: relative;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+    /*float: left;                                                      /*or. right*/
+    /*width: calc(100% - #{$right-sidebar-width-narrow} - 200px);       /*or. no minus 200px*/
   }
 
   @include breakpoint($x-large) {
-    float: center; 
-    width: calc(100% - #{$right-sidebar-width} - 200px);              /*or. no minus 200px*/
+    position: relative;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+    /*width: calc(100% - #{$right-sidebar-width} - 200px);              /*or. no minus 200px*/
   }
 
   a {
