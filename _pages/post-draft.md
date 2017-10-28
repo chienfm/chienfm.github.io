@@ -25,7 +25,7 @@ Khi xem xét một khối rắn trong chuyển động tịnh tiến, chúng ta 
 ### 1.1 Khối thể tích hữu hạn (Finite Control Volume)
 
 ![image-center](/assets/images/CFD/Model_of_flow.png){: .align-center}
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/CFD/Model_of_flow.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/CFD/Model_of_flow.png" alt="test">
 {% capture fig_img %}
 ![FG1]({{ "/assets/images/CFD/Model_of_flow.png" | absolute_url }})
 {% endcapture %}
