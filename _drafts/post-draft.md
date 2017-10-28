@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "CFD - Phương trình cơ bản 1"
+permalink: /draft1
 header:
   teaser: "unsplash-gallery-image-2-th.jpg"
 categories: 
