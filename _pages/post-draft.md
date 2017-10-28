@@ -25,10 +25,10 @@ Khi xem xét một khối rắn trong chuyển động tịnh tiến, chúng ta 
 ### 1.1 Khối thể tích hữu hạn (Finite Control Volume)
 
 <center>
-<figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/CFD/Model_of_flow.png" alt="Mô hình hóa dòng chảy" width="370" height="300">
-  <figcaption>Hình 1. Mô hình hóa dòng chất lưu.</figcaption>
-</figure>
+  <figure>
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/CFD/Model_of_flow.png" alt="Mô hình hóa dòng chảy" width="296" height="240">
+    <center><figcaption>Hình 1. Mô hình hóa dòng chất lưu.</figcaption></center>
+  </figure>
 </center>
 
 
