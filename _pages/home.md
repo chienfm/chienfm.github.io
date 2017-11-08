@@ -33,7 +33,7 @@ feature_row1:
   - image_path: assets/images/background/numerical_method.jpg
     alt: "Numerical Methods"
     title: "Numerical Methods"
-    excerpt: "Tutorials and sugessted books and lecture on CFD"
+    excerpt: "Tutorials and sugessted books and lectures on CFD"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
