@@ -15,7 +15,7 @@ feature_row:
   - image_path: assets/images/background/bg009.jpg
     alt: "Articles"
     title: "Articles"
-    excerpt: "A collection of my though, experience, inspiration and the translating articles. Most of them are used as my references. I'm happy if you find them useful!"
+    excerpt: "A collection of my thought, experience, inspiration and the translating articles. Most of them are used as my references. I'm happy if you find them useful!"
     url: "/_pages/index.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
