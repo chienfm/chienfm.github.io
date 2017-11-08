@@ -50,7 +50,7 @@ Note:
   - Bề mặt bao kín thể tích kiểm tra `Control Volume` được gọi là `Control Surface`.
   {: .text-justify}
 
-  - Trong trạng thái ổn định (*steady state*), thì khối lượng và động lượng của `Control Volume` được bảo toàn. Các bạn cũng có thể tham khảo thêm bài viết chi tiết hơn tại đây [tại đây](https://en.wikipedia.org/wiki/Control_volume).
+  - Trong trạng thái ổn định (*steady state*), thì khối lượng và động lượng của `Control Volume` được bảo toàn. Các bạn cũng có thể tham khảo thêm bài viết chi tiết hơn [tại đây](https://en.wikipedia.org/wiki/Control_volume).
   {: .text-justify}
 
 ---
