@@ -39,7 +39,8 @@ Trước hết, ta xem xét một trường dòng (`flow field`) tổng quát tr
 
 ### 1.2 Phần tử chất lưu hữu hạn (Infinitesimal Fluid Element)
 
-Tiếp tục xem xét trường dòng cho các trường hợp `1.c` và `1d`. Giả sử chúng ta có các phần tử chất lưu vô cùng nhỏ với các thể tích khác nhau $\mathscr{dV}$ trong dòng chất lưu. Lưu ý là các phần tử này dù nhỏ nhưng vẫn vô cùng lớn so với kích thươc phân tử. Do đó ta vẫn có thể coi đây là một môi trường liên tục. Và tương tự như trường hợp của thể tích kiểm tra, các phần tử này có thể cố định trong trường dòng hoặc chuyển động cùng với đường dòng. Tuy nhiên, khác với thể tích kiểm tra, áp dụng các định luật vật lý, ta có thể trực tiếp tìm ra dạng vi phân của phương trình điều khiển. Dạng tích phân được tìm ra một cách gián tiếp bằng cách biến đổi từ dạng vi phân. Với trường hợp `1.c`, các phương trình này sẽ ở dạng bảo toàn. Với trường hợp `1.d`, các phương trình này ở dạng không bảo toàn. 
+Tiếp tục xem xét trường dòng cho các trường hợp `1.c` và `1d`. Giả sử chúng ta có các phần tử chất lưu vô cùng nhỏ với các thể tích khác nhau $\mathscr{dV}$ trong dòng chất lưu. Lưu ý là các phần tử này dù nhỏ nhưng vẫn vô cùng lớn so với kích thươc phân tử. Do đó ta vẫn có thể coi đây là một môi trường liên tục. Và tương tự như trường hợp của thể tích kiểm tra, các phần tử này có thể cố định trong trường dòng hoặc chuyển động cùng với đường dòng. Tuy nhiên, khác với thể tích kiểm tra, áp dụng các định luật vật lý, ta có thể trực tiếp tìm ra dạng vi phân của phương trình điều khiển. Dạng tích phân được tìm ra một cách gián tiếp bằng cách biến đổi từ dạng vi phân. Với trường hợp `1.c`, các phương trình này sẽ ở dạng **bảo toàn**. Với trường hợp `1.d`, các phương trình này ở dạng **không bảo toàn**.
+{: .text-justify} 
 
 ---
 Note:
@@ -51,3 +52,8 @@ Note:
 
   - Trong trạng thái ổn định (*steady state*), thì khối lượng và động lượng của `Control Volume` được bảo toàn. Các bạn cũng có thể tham khảo thêm bài viết chi tiết hơn tại đây [tại đây](https://en.wikipedia.org/wiki/Control_volume).
   {: .text-justify}
+
+---
+Reference:
+[1]. Hirsch C. (2016). Numerical computation of internal and external flows. Volume 1.
+[2]. Anderson-J-D. (1996). Computational Fluid Dynamics: the Basics With Applications.
