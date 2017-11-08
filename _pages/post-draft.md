@@ -19,7 +19,7 @@ Trong chương này, chúng ta sẽ cùng thực hiện các biến đổi để
 
 ## 1. Mô hình hóa dòng chất lưu
 
-Khi xem xét một khối rắn trong chuyển động tịnh tiến, chúng ta thấy rằng vận tốc của mọi phần của khối này là như nhau. Tuy nhiên, đối với chuyển động của khối chất lưu, vận tốc của mỗi phần trong khối này có thể không giống nhau. Vậy làm cách chúng ta có thể quan sát một khối chất lưu chuyển động rồi từ đó có thể áp dụng các định luật vật lý? Trong môi trường chất lưu liên tục, chúng ta có thể giải quyết vấn đề đó bằng cách áp dụng 1 trong 4 mô hình trình bày tiếp đây.
+Khi xem xét một khối rắn trong chuyển động tịnh tiến, chúng ta thấy rằng vận tốc của mọi phần của khối này là như nhau. Tuy nhiên, đối với chuyển động của khối chất lưu, vận tốc của mỗi phần trong khối này có thể không giống nhau. Vậy bằng cách nào chúng ta có thể quan sát một khối chất lưu chuyển động rồi từ đó có thể áp dụng các định luật vật lý? Trong môi trường chất lưu liên tục, chúng ta có thể giải quyết vấn đề đó bằng cách áp dụng 1 trong 4 mô hình trình bày tiếp đây.
 {: .text-justify}
 
 ### 1.1 Thể tích kiểm tra hữu hạn (Finite Control Volume)
