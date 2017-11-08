@@ -54,6 +54,6 @@ Note:
   {: .text-justify}
 
 ---
-Reference:
-[1]. Hirsch C. (2016). Numerical computation of internal and external flows. Volume 1.
-[2]. Anderson-J-D. (1996). Computational Fluid Dynamics: the Basics With Applications.
+#### Reference:
+  1. Hirsch C. (2016). Numerical computation of internal and external flows. Volume 1.
+  2. Anderson-J-D. (1996). Computational Fluid Dynamics: the Basics With Applications.
