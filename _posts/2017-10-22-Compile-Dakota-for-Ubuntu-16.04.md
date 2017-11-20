@@ -41,7 +41,7 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
 #### 1.2 Download DAKOTA source code on website.
   
   - At the moment I wrote this tut, I successful compiled the newest version of Dakota (v6.7). So you can download any version you want to use from v6.4 --> 6.7.
-  - Create DAKOTA folder and [dowload](https://dakota.sandia.gov/download) the source into it.
+  - Create DAKOTA folder and [download](https://dakota.sandia.gov/download) the source into it.
 
 #### 1.3  Extract file in terminal.
   
@@ -50,6 +50,7 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
   $ tar -xzf dakota-<version>-public-src.tar.gz 
   ```
   - Now we have the source code.
+
 #### 1.4 Create and go to dakota-6.4.0 folder
 
   - From version 6.5, if you make the build and installation in the same folder, error may occur. So, I suggest we should make separated folders for each. In the case you want to install in /usr/local/bin, you can obmit the install folder.
@@ -113,14 +114,14 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
 
 #### 3.1 Add Path
 
-- ***If you install dakota in your specific folder***, do not forget to add the following environment variables to your *.bashrc* file. Add the following lines at the end of *bashrc* and save
+  - ***If you install dakota in your specific folder***, do not forget to add the following environment variables to your *.bashrc* file. Add the following lines at the end of *bashrc* and save
 
    ```bash
    $ gedit ~/.bashrc
    $ export PATH=$PATH:~/DAKOTA/dakota_installation/bin:~/DAKOTA/dakota_installation/test
    $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/DAKOTA/dakota_installation/bin:~/DAKOTA/dakota_installation/lib 
    ```
-- If you install in default folder, just obmit this step.
+  - If you install in default folder, just obmit this step.
 #### 3.2 Test build
 
    ```bash
