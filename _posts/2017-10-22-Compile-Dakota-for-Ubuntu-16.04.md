@@ -18,7 +18,7 @@ last_modified_at: 2017-11-20T17:35
 
 However, Sandia Lab does not provide a build version for Ubuntu. Also, when I look around some forums, there is no detailed tutorial shows how to do that. Therefore, I write this one to share my way, step by step. I hope this could help someones those are not familar with compiling app in Ubuntu. The build was done for dakota 6.4 but might work with newer versions.
 
-"Update 2017-11-20: This build is work for dakota v6.7"
+"Update 2017-11-20: This build works for dakota v6.7"
 
 ### 1 Preparation:
 
