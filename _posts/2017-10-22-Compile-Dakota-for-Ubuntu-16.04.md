@@ -67,7 +67,7 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
 #### 1.5 Copy file BuildDakotaTemplate.cmake and rename it to BuildDakotaCustom.cmake. You can edit some features if you want, check the content inside for detail.
 
   ```bash
-  ~$ cp $DAK_SRC/cmake/BuildDakotaTemplate.cmake $DAK_SRC/cmake/BuildDakotaCustom.cmake 
+  $ cp $DAK_SRC/cmake/BuildDakotaTemplate.cmake $DAK_SRC/cmake/BuildDakotaCustom.cmake 
   ```
 
 ### 2 Building
@@ -100,13 +100,13 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
 >(The -j option means we will compile in parallel. In this case I am compiling with 4 processors. You can adjust this option to suit with your hardware)
 
    ```bash
-   ~$ make -j4
+   $ make -j4
    ```
 
 #### 2.3 Install
 
    ```bash
-   ~$ make install                                                                             
+   $ make install                                                                             
    ```
 
 ### 3 Path and Test
@@ -124,7 +124,7 @@ However, Sandia Lab does not provide a build version for Ubuntu. Also, when I lo
 #### 3.2 Test build
 
    ```bash
-   ~$ dakota -v
+   $ dakota -v
    ```
   If the screen show the version and build date, the job is finished!  You also can follow the steps on [ the Dakota website](https://dakota.sandia.gov/content/test-installation-0) to fully check the installation. 
 
