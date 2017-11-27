@@ -56,11 +56,33 @@ Bài viết này tập hợp các lệnh thông dụng và hữu ích khi làm v
 | find $FOAM_SRC -name fvMesh.H -type l | Liệt kê đường dẫn của file có tên *fvMesh* trong thư mục nguồn     |
 | find $FOAM_SRC -name "\*.[CH]" -type f| Liệt kê tất cả file .H hoặc .C trong thư mục nguồn                 |
 
+
 #### 2.2 Các lệnh nâng cao
   - Tìm kiếm một chuỗi trong file. Lệnh dưới đây tìm kiếm từ khóa `slip` trong tất cả các file trong thư mục `tutorial`
     ```bash  
     $> find $FOAM_TUTORIALS -type f | xargs grep -sl 'slip'
     ```
-
-
 Note: [Tham khảo thêm](https://cfd.direct/openfoam/linux-guide/)
+
+#### 2.3 Shortcut (OpenFOAM alisas)
+
+| Command                               | Ý nghĩa                                                            |
+| ------------------------------        | ------------------------------------------------------------------ |
+| foam                                  | Chuyển đến thư mục cài đặt OF                                      |
+| app                                   | Chuyển đến thư mục các ứng dụng của OF                             |
+| src                                   | Chuyển đến thư mục chứa mã nguồn của OF                            |
+| tut                                   | Chuyển đến thư mục tutorials                                       |
+| solver                                | Chuyển đến thư mục chứa các solver của OF                          |
+
+### 3. GNU PLOT
+
+  ```bash
+  gnuplot > set logscale y
+  Chú thích: Chọn trục y theo logscale
+  
+  gnuplot > plot 'A/filename0' using 1:2 with lines, 'filename1' using 1:2 with lines
+  Chú thích: - Vẽ dữ liệu trong cột 1,2 của 'filename0' trong thư mục A của thư mục hiện hành
+             - Tương tự với 'filename1' ở thư mục hiện hành
+             - Mặc định, nếu ko set tiêu đề thì tên file sẽ là tên đồ thị
+             - Dùng `,` để vẽ nhiều đồ thị
+  ```
