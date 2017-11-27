@@ -48,13 +48,13 @@ Bài viết này tập hợp các lệnh thông dụng và hữu ích khi làm v
 
 #### 2.1 Tìm kiếm file và thư mục
 
-| Command                               | Ý nghĩa                                                            |
-| ------------------------------        | ------------------------------------------------------------------ |
-| find $FOAM_SRC                        | Liệt kê file, folder, đường dẫn trong thư mục nguồn                |
-| find $FOAM_SRC -name fvMesh.H         | Liệt kê file và đường dẫn có tên *fvMesh* trong thư mục nguồn      |
-| find $FOAM_SRC -name fvMesh.H -type f | Liệt kê tất cả file có tên *fvMesh* trong thư mục nguồn            |
-| find $FOAM_SRC -name fvMesh.H -type l | Liệt kê đường dẫn của file có tên *fvMesh* trong thư mục nguồn     |
-| find $FOAM_SRC -name "\*.[CH]" -type f| Liệt kê tất cả file .H hoặc .C trong thư mục nguồn                 |
+| Command                                   | Ý nghĩa                                                            |
+| ---------------------------------------   | ------------------------------------------------------------------ |
+| find $FOAM_SRC                            | Liệt kê file, folder, đường dẫn trong thư mục nguồn                |
+| find $FOAM_SRC -name fvMesh.H             | Liệt kê file và đường dẫn có tên *fvMesh* trong thư mục nguồn      |
+| find $FOAM_SRC -name fvMesh.H -type f     | Liệt kê tất cả file có tên *fvMesh* trong thư mục nguồn            |
+| find $FOAM_SRC -name fvMesh.H -type l     | Liệt kê đường dẫn của file có tên *fvMesh* trong thư mục nguồn     |
+| find $FOAM_SRC -name "\*.[CH]" -type f    | Liệt kê tất cả file .H hoặc .C trong thư mục nguồn                 |
 
 
 #### 2.2 Các lệnh nâng cao
@@ -67,7 +67,7 @@ Note: [Tham khảo thêm](https://cfd.direct/openfoam/linux-guide/)
 #### 2.3 Shortcut (OpenFOAM alisas)
 
 | Command                               | Ý nghĩa                                                            |
-| ------------------------------        | ------------------------------------------------------------------ |
+| ------------                          | ----------------------------------------------                     |
 | foam                                  | Chuyển đến thư mục cài đặt OF                                      |
 | app                                   | Chuyển đến thư mục các ứng dụng của OF                             |
 | src                                   | Chuyển đến thư mục chứa mã nguồn của OF                            |
