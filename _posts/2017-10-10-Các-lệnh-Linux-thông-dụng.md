@@ -38,30 +38,30 @@ Bài viết này tập hợp các lệnh thông dụng và hữu ích khi làm v
 
 * <kbd> PS1='\u:\W\$ ' </kbd> : Rút gọn đường dẫn hiển thị ở command line. Thông tin chi tiết hơn có thể xem [tại đây](http://www.linuxselfhelp.com/howtos/Bash-Prompt/Bash-Prompt-HOWTO-2.html)
     * Example
-        ```bash
-        root@root:/a/b/c/d/e$ PS1='\u:\W\$ '
-        root@root:e$
-        ```
+      ```bash
+      root@root:/a/b/c/d/e$ PS1='\u:\W\$ '
+      root@root:e$
+      ```
 
 
 ### 2. OpenFOAM
 
 #### 2.1 Tìm kiếm file và thư mục
 
-| Command                                   | Ý nghĩa                                                            |
-| ---------------------------------------   | ------------------------------------------------------------------ |
-| find $FOAM_SRC                            | Liệt kê file, folder, đường dẫn trong thư mục nguồn                |
-| find $FOAM_SRC -name fvMesh.H             | Liệt kê file và đường dẫn có tên *fvMesh* trong thư mục nguồn      |
-| find $FOAM_SRC -name fvMesh.H -type f     | Liệt kê tất cả file có tên *fvMesh* trong thư mục nguồn            |
-| find $FOAM_SRC -name fvMesh.H -type l     | Liệt kê đường dẫn của file có tên *fvMesh* trong thư mục nguồn     |
-| find $FOAM_SRC -name "\*.[CH]" -type f    | Liệt kê tất cả file .H hoặc .C trong thư mục nguồn                 |
+| Command                                       | Ý nghĩa                                                            |
+| ----------------------------------------------| ------------------------------------------------------------------ |
+| find $FOAM_SRC                                | Liệt kê file, folder, đường dẫn trong thư mục nguồn                |
+| find $FOAM_SRC -name fvMesh.H                 | Liệt kê file và đường dẫn có tên *fvMesh* trong thư mục nguồn      |
+| find $FOAM_SRC -name fvMesh.H -type f         | Liệt kê tất cả file có tên *fvMesh* trong thư mục nguồn            |
+| find $FOAM_SRC -name fvMesh.H -type l         | Liệt kê đường dẫn của file có tên *fvMesh* trong thư mục nguồn     |
+| find $FOAM_SRC -name "\*.[CH]" -type f        | Liệt kê tất cả file .H hoặc .C trong thư mục nguồn                 |
 
 
 #### 2.2 Các lệnh nâng cao
   - Tìm kiếm một chuỗi trong file. Lệnh dưới đây tìm kiếm từ khóa `slip` trong tất cả các file trong thư mục `tutorial`
-    ```bash  
-    $> find $FOAM_TUTORIALS -type f | xargs grep -sl 'slip'
-    ```
+```bash  
+$> find $FOAM_TUTORIALS -type f | xargs grep -sl 'slip'
+```
 Note: [Tham khảo thêm](https://cfd.direct/openfoam/linux-guide/)
 
 #### 2.3 Shortcut (OpenFOAM alisas)
@@ -75,14 +75,16 @@ Note: [Tham khảo thêm](https://cfd.direct/openfoam/linux-guide/)
 | solver                                | Chuyển đến thư mục chứa các solver của OF                          |
 
 ### 3. GNU PLOT
-
-  ```bash
-  gnuplot > set logscale y
-  Chú thích: Chọn trục y theo logscale
+- Định sạng log cho trục y
+```bash
+gnuplot > set logscale y
+```
   
-  gnuplot > plot 'A/filename0' using 1:2 with lines, 'filename1' using 1:2 with lines
-  Chú thích: - Vẽ dữ liệu trong cột 1,2 của 'filename0' trong thư mục A của thư mục hiện hành
-             - Tương tự với 'filename1' ở thư mục hiện hành
-             - Mặc định, nếu ko set tiêu đề thì tên file sẽ là tên đồ thị
-             - Dùng `,` để vẽ nhiều đồ thị
-  ```
+- Vẽ cơ bản:  
+  - Vẽ dữ liệu trong cột 1,2 của 'filename0' trong thư mục A của thư mục hiện hành
+  - Tương tự với 'filename1' ở thư mục hiện hành
+  - Mặc định, nếu ko set tiêu đề thì tên file sẽ là tên đồ thị
+  - Dùng `,` để vẽ nhiều đồ thị
+```bash
+gnuplot > plot 'A/filename0' using 1:2 with lines, 'filename1' using 1:2 with lines
+```
