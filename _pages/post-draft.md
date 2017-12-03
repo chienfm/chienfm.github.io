@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "CFD - Phương trình cơ bản 1"
+title:  "CFD - Khái niệm cơ bản 1"
 permalink:  /draft1/
 categories: 
   - CFD
