@@ -5,7 +5,7 @@ permalink:  /draft1/
 categories: 
   - CFD
 tags:
-  - CFD
+  - CFD basic
 last update: 2017-10-28T17:46
 ---
 Các biến của phương pháp cơ học tính toán, dù ở dạng nào, đều được dựa trên các tính chất cơ bản của cơ học chất lỏng bao gồm `tính liên tục (continuity)`, `động lượng (momentum)` và `năng lượng (energy)`. Chúng được khái quát hóa bằng các định luật toán học cơ bản sau:
