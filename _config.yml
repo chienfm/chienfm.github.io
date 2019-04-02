@@ -12,7 +12,7 @@ locale                   : "vi-VN"  # "en-US", "vi-VN" ...more in _data/ui-text.
 title                    : "VN CFD Blog"
 title_separator          : "-"
 name                     : &name "Chien Nguyen" # &name is a YAML anchor which can be *referenced later
-description              : &description "A technical blog about CAE"
+description              : &description "A technical blog about Numerical Methods"
 url                      : https://chienfm.com # the base hostname & protocol for your site e.g. "https://chienfm.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
